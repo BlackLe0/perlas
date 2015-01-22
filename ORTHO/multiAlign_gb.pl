@@ -5,7 +5,7 @@ system "rm -r $Working_dir/ALIGNMENTS_GB/";
 system "mkdir $Working_dir/ALIGNMENTS_GB/";
 ###############################################################################################
 ##############################################
-$TOTAL=203;
+$TOTAL=203; # number of core proteins? couldn't they be counted? so that this wouldn't by set by the user
 $NumOrg=47;
 
 open (LS, "$lista") or die $!;
