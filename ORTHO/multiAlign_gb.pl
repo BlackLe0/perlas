@@ -1,8 +1,8 @@
 $infile="NUEVOCORE";
 $lista="lista.nuevocore";
 $Working_dir="/home/fbg/lab/ana/RASTtk/$infile";
-system "rm -r /home/fbg/lab/ana/RASTtk/$infile/ALIGNMENTS_GB/";
-system "mkdir /home/fbg/lab/ana/RASTtk/$infile/ALIGNMENTS_GB/";
+system "rm -r $Working_dir/ALIGNMENTS_GB/";
+system "mkdir $Working_dir/ALIGNMENTS_GB/";
 ###############################################################################################
 ##############################################
 $TOTAL=203;
